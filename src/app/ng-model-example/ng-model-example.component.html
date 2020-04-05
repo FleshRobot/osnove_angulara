@@ -1,0 +1,3 @@
+<!-- <input [value]="email" (keyup.enter)="onKeyUp()" /> -->
+<!-- <input [value]="email" (keyup.enter)="email = $event.target.value; onKeyUp()" /> -->
+<input [(ngModel)]="email" (keyup.enter)="onKeyUp()" />

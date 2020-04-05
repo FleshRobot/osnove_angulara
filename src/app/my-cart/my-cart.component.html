@@ -1,0 +1,7 @@
+<button (click)="deleteCart()">Empty my cart</button>
+
+<div *ngIf="items">
+    <div *ngFor="let item of items">
+        {{ item.name }}
+    </div>
+</div>
